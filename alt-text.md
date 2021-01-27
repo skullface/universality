@@ -44,7 +44,9 @@ Alt text is described within the `aria-label` attribute on `<canvas>` elements (
 
 In the spirit of providing contextual descriptions for non-text content, video and audio on the web should always include captions and/or a transcript.
 
-Other non-text or media elements should be described by `aria-label` or `aria-labelledby`. If they are purely decorative elements, they should be should be hidden from accessibility APIs via `aria-hidden="true"` and can be programatically set as having no semantic role with `role="none presentation"`.
+Other non-text or media elements should be described by `aria-label` or `aria-labelledby`. If they are purely decorative elements, they should be should be hidden from accessibility APIs via `aria-hidden="true"`. Elements can still be exposed to assistive technology while being programatically set as having no semantic role with `role="none presentation"`.
+
+**Read more**: [MDN: Using the `aria-hidden` attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-hidden_attribute)
 
 ### Markdown
 Alt text is described within brackets `[]` on image elements.
