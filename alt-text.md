@@ -36,9 +36,13 @@ Additionally, inline `<svg>`s must have their role set with `role="img"`.
 **Read more**: [CSS Tricks: Accessible SVGs](https://css-tricks.com/accessible-svgs/#2-inline-svg)
 
 ### `<canvas>`
-Alt text is described within the `aria-label` attribute on `<canvas>` elements (or a fallback creates an element available to a screen reader).
+Unless an accessible fallback exists, alt text is described within the `aria-label` attribute on `<canvas>` elements. If a `<canvas>` displays a graphic, it should be sementically set as an image with `role="img"`. 
 
-* [Paul J Adam: Canvas](https://pauljadam.com/demos/canvas.html)
+```html
+<canvas aria-label="alt text" role="img"></canvas>
+```
+  
+* **Read more**: [Paul J Adam: Canvas](https://pauljadam.com/demos/canvas.html)
 
 ### Other non-text elements
 
@@ -50,7 +54,7 @@ Other non-text or media elements should be described by `aria-label` or `aria-la
 
 ### Markdown
 Alt text is described within brackets `[]` on image elements.
-```markdowm
+```markdown
 ![alt text](https://image.png)
 ```
 
