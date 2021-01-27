@@ -33,7 +33,7 @@ Additionally, inline `<svg>`s must have their role set with `role="img"`.
 </svg>
 ```
 
-→ **Read more**: [CSS Tricks, Accessible SVGs](https://css-tricks.com/accessible-svgs/#2-inline-svg)
+→ **Read more**: [CSS Tricks | Accessible SVGs](https://css-tricks.com/accessible-svgs/#2-inline-svg)
 
 ### `<canvas>`
 Unless an accessible fallback exists, alt text is described within the `aria-label` attribute on `<canvas>` elements. If a `<canvas>` displays a graphic, it should be sementically set as an image with `role="img"`. 
@@ -42,7 +42,7 @@ Unless an accessible fallback exists, alt text is described within the `aria-lab
 <canvas aria-label="alt text" role="img"></canvas>
 ```
   
-→ **Read more**: [Paul J Adam, Canvas](https://pauljadam.com/demos/canvas.html)
+→ **Read more**: [Paul J Adam | Canvas](https://pauljadam.com/demos/canvas.html)
 
 ### Media group
 
@@ -71,7 +71,7 @@ If the image is described elsewhere in the page, identify that location with `ar
 ```
 
 
-→ **Read more**: [MDN, ARIA: img role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Role_Img)
+→ **Read more**: [MDN | ARIA: img role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Role_Img)
 
 ### Other non-text elements
 
@@ -79,7 +79,7 @@ In the spirit of providing contextual descriptions for non-text content, video a
 
 Other non-text or media elements should be described by `aria-label` or `aria-labelledby`. If they are purely decorative elements, they should be should be hidden from accessibility APIs via `aria-hidden="true"`. Elements can still be exposed to assistive technology while being programatically set as having no semantic role with `role="none presentation"`.
 
-→ **Read more**: [MDN, Using the `aria-hidden` attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-hidden_attribute)
+→ **Read more**: [MDN | Using the `aria-hidden` attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-hidden_attribute)
 
 ### Markdown
 Alt text is described within brackets `[]` on image elements.
@@ -134,18 +134,18 @@ From the [alt text training by Microsoft MSCOM](https://mscomaccessibility.azure
 </table>
 
 ### Additional examples
-* [W3C, An alt Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/)
+* [W3C | An alt Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/)
 
 ## Resources
 
 ### Specifications
-* [WCAG spec, 1.1.1 Non-text Content](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)
-* [W3C HTML spec, 4.7.1.1 Requirements for providing text to act as an alternative for images](https://www.w3.org/TR/2014/REC-html5-20141028/embedded-content-0.html#alt)
-* [WhatWG HTML spec, 4.8.4.4 Requirements for providing text to act as an alternative for images](https://html.spec.whatwg.org/multipage/images.html#alt)
+* [WCAG spec | 1.1.1 Non-text Content](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)
+* [W3C HTML spec | 4.7.1.1 Requirements for providing text to act as an alternative for images](https://www.w3.org/TR/2014/REC-html5-20141028/embedded-content-0.html#alt)
+* [WhatWG HTML spec | 4.8.4.4 Requirements for providing text to act as an alternative for images](https://html.spec.whatwg.org/multipage/images.html#alt)
 
 ### Articles/Guides
-* [WebAIM, Alternative Text](https://webaim.org/techniques/alttext)
-* [Shopify Polaris, Content, Alt text](https://polaris.shopify.com/content/alternative-text)
+* [WebAIM | Alternative Text](https://webaim.org/techniques/alttext)
+* [Shopify Polaris | Content: Alt text](https://polaris.shopify.com/content/alternative-text)
 
 ### Classes/Workshops
 * [Alt text class by Microsoft MSCOM](https://mscomaccessibility.azurewebsites.net/training#events), free, offered several times a year
