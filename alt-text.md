@@ -100,10 +100,10 @@ Alt text is described within brackets `[]` on image elements.
 
 ### Tactics
 * Alt text should be as long as necessary to be informative, while still being as brief as possible. Aim for under 250 characters. 
-  * If alt text will be longer than ~250 characters, consider creating a caption to the image element instead for clarity for all users.
-* Appropriate grammar leads to more natural speech in a screen reader.
-  * Use sentence-style capitalization. 
-  * Use punctuation, including an ending period, even if the alt text is a dependent clause. 
+  * If the alt text is longer than ~250 characters, consider captioning the image element or providing its context in the copy itself. Aim for clarity for all users.
+* Use appropriate grammar so a screen reader annouces speach naturally.
+  * Use sentence-style capitalization.
+  * Use punctuation, including an ending period, even if the alt text is a dependent clause. This helps the screen reader pause before continuing to announce the following text on the page.
 * When the image type (e.g., painting, photo, screenshot, graphic) is directly relevant to the topic, describe it at the beginning of the alt text, e.g., “An oil painting of flowers in a vase by Vincent Van Vogh” situated on the same page as “A photograph by Ansel Adams of the Tetons and Snake River”.
 * For UI images that aren’t otherwise declared in text, describe the function of the image, not the description of the image, e.g. “Next”, not “Right arrow”.
 * Functional actions should provide additional context.
