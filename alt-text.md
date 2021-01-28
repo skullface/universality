@@ -22,6 +22,17 @@ Alt text is described within the value of the `alt` attribute on `<img>` element
 
 Purely decorative images must contain _blank_ alt text (`alt=""`).
 
+### CSS `background-image` property
+
+Generally, images that are displayed via CSS should only be decorative. 
+
+If an image is meaningful, HTML elements with a CSS background image may be made readable in the accessibility API by describing the element as an image with `role="img"` and adding its alt text via `aria-label`. These HTML elements should serve no other purpose their `role` attribute is accurate.
+
+```HTML
+<div style="background-image: url('image.png')" role="img" aria-label="alt text">
+</div>
+```
+
 ### Inline `<svg>`
 Alt text is described within the `<title>` tag inside an `<svg>` element. The `<title>` is then associated with the `<svg>` via `aria-labelledby`.
 
