@@ -156,7 +156,10 @@ From the [alt text training by Microsoft MSCOM](https://mscomaccessibility.azure
 
 ### Articles/Guides
 * [WebAIM | Alternative Text](https://webaim.org/techniques/alttext)
+
+### Content style guides within design systems
 * [Shopify Polaris | Content: Alt text](https://polaris.shopify.com/content/alternative-text)
+* [web.dev Content handbook | Markup: Images and video](https://web.dev/handbook/markup-media/#alt-vs-figcaption)
 
 ### Classes/Workshops
 * [Alt text class by Microsoft MSCOM](https://mscomaccessibility.azurewebsites.net/training#events), free, offered several times a year
