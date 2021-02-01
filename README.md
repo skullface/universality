@@ -1,2 +1,1 @@
-# a11y
-Accessibility learnings 🌈
+# Universality: Accessible and inclusive design, content, and development
